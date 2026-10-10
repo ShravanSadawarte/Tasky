@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# task data (never commit real user data)
+*.corrupt-*.json
+
+# local dev artifacts
+*.tgz
+.tasky-test-*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# env (never publish credentials)
+.env
+.env.*

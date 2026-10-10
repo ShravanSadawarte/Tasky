@@ -1,0 +1,47 @@
+{
+  "name": "tasky-cli",
+  "version": "0.1.0",
+  "description": "Tasky — your tasks, your flow. A beautiful, fast, production-ready CLI task manager.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Tasky Contributors",
+  "homepage": "https://github.com/example/tasky-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/tasky-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/example/tasky-cli/issues"
+  },
+  "keywords": [
+    "cli",
+    "tasks",
+    "todo",
+    "productivity",
+    "terminal",
+    "task-manager"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "tasky": "./bin/tasky.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"tests/*.test.js\"",
+    "test:watch": "node --test --watch \"tests/*.test.js\""
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.3",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.2",
+    "ora": "^8.2.0"
+  }
+}
